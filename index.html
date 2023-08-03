@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+  <style>
+   
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Ayush's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li> <a href="/">Home</li></a>
+          <li> <a href="/">About</li></a>
+          <li> <a href="/">Services</li></a>
+          <li> <a href="/">Projects</li></a>
+          <li> <a href="/">Contact Me</li></a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi,My name is <span class="purple">Ayush</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+
+        <div class="button">
+
+          <button class="btn"
+            onclick="window.location.href='https://drive.google.com/drive/folders/1RjO7YNt_GzHZ6-6O2fjwJqxCFSAuaCTN?usp=drive_link';">Resume</button>
+          <button class="btn" onclick="window.location.href='https://github.com/ayushkushwaha609';">Github</button>
+
+        </div>
+
+      </div>
+
+      <div class="rightsection"><img src="/images/bg.png" alt="developer-img"></div>
+
+    </section>
+    <hr>
+    <section class="secondsection">
+      <span class="textgrey">What I have done so far</span>
+      <h1>Projects So Far</h1>
+      <div class="box">
+        <div class="vertical">
+          <!-- <img src="todo.png" alt="" class="image-top"> -->
+          <div class="vertical-title">
+            Functional TODO WebApp
+          </div>
+          <div class="vertical-desc">A functional and minimal todo web-app built using html,css and
+            javascript.Functionalities include Create, delete, mark as completed.
+          </div>
+        </div>
+
+
+        <div class="vertical">
+          <!-- <img src="code-translator.png" alt="" class="image-top"> -->
+          <div class="vertical-title">
+            Code Tranlator website(InProgress)
+          </div>
+          <div class="vertical-desc">A code translator website built using next.js and OpenAI API
+          </div>
+        </div>
+
+
+        <div class="vertical">
+          <!-- <img src="coffee.png" alt="" class="image-top"> -->
+          <div class="vertical-title">
+            Coffee Cafe Landing Page
+          </div>
+          <div class="vertical-desc">A coffee cafe landing page built using HTML,CSS, JAVASCRIPT.
+          </div>
+        </div>
+
+
+      </div>
+      </section>
+
+      <hr class="secondhr">
+
+      <section class="thirdsection">
+        <span class="textgrey">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <!-- <img src="developer.png" alt="" class="image-top"> -->
+            <div class="vertical-title">
+              Web Dev Intern@Codsoft
+            </div>
+            <div class="vertical-desc">One month virtual insternship at Codsoft.in as a Web Developer from 15 July 2023
+              to 15 August 2023.
+            </div>
+          </div>
+      </section>
+      <!-- <div class="vertical"> 
+          <img src="developer.png" alt="" class="image-top">
+          <div class="vertical-title">
+            Frontend Web Developer(2022-present)
+          </div>
+          <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, architecto. Aut,
+            numquam voluptas quam aspernatur expedita aliquam odio ut explicabo corrupti exercitationem. Praesentium?
+          </div>
+        </div> <div class="vertical">
+          <img src="developer.png" alt="" class="image-top">
+          <div class="vertical-title">
+            Frontend Web Developer(2022-present)
+          </div>
+          <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, architecto. Aut,
+            numquam voluptas quam aspernatur expedita aliquam odio ut explicabo corrupti exercitationem. Praesentium?
+          </div> -->
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="first">
+        <h3>More Functionality Will be added as work progresses.</h3>
+      </div>
+      <div class="second">
+        <a href="https://www.instagram.com/photozoa_1/"><img class="footer-img" src="/images/instagram_logo.png" alt=""></a>
+        <h6>Instagram</h6>
+      </div>
+      <div class="third">
+        <a
+          href="https://linktr.ee/ayush_kushwaha?utm_source=linktree_profile_share&ltsid=b8f000b7-19bd-49cd-b4aa-4e52345348c7"><img
+            class="footer-img" src="/images/linktre-logo.png" alt=""></a>
+            <h6>Linktr</h6>
+      </div>
+      <div class="fourth"></div>
+
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+
+      strings: ['Photographer', 'Web Developer'],
+      typeSpeed: 40,
+    });
+  </script>
+  <script></script>
+
+
+</body>
+
+</html>
